@@ -30,6 +30,23 @@
           userhost-in-names: 3.0+
           account-tag: 3.4+
           chghost: 3.4+
+    - name: gIRC
+      # ref: https://github.com/DanielOaks/girc
+      link: https://github.com/DanielOaks/girc
+      support:
+        v3.1:
+          cap:
+          multi-prefix:
+          sasl:
+        v3.2:
+          cap:
+          message-tags:
+          account-tag:
+          cap-notify:
+          echo-message:
+          sasl:
+          server-time:
+          userhost-in-names:
     - name: Net::Async::IRC
       # ref: https://metacpan.org/source/PEVANS/Net-Async-IRC-0.10/lib/Net/Async/IRC.pm#L339
       link: https://metacpan.org/pod/Net::Async::IRC
