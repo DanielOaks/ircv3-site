@@ -307,6 +307,9 @@ a:hover, a:focus {
 #home-slider-wrapper a {
     color: #9eb;
 }
+#home-graph > canvas {
+    box-shadow: 0px 0px 1rem 1.5rem #F2F2F2 inset;
+}
 
 .spec-link {
     font-size: 3rem;
