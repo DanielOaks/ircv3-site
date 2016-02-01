@@ -291,6 +291,23 @@ a:hover, a:focus {
     padding: 0.75rem 2rem;
 }
 
+.center-text {
+    text-align: center;
+}
+
+#home-slider-wrapper {
+    background: #145960;
+    width: 100%;
+    margin: 2rem 0;
+    color: white;
+}
+.homepage-features {
+    font-size: 1.7rem;
+}
+#home-slider-wrapper a {
+    color: #9eb;
+}
+
 .spec-link {
     font-size: 3rem;
     display: block;
