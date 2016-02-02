@@ -307,8 +307,14 @@ a:hover, a:focus {
 #home-slider-wrapper a {
     color: #9eb;
 }
+#home-slider-wrapper > div > div {
+    margin: 2rem 0;
+}
 #home-graph > canvas {
     box-shadow: 0px 0px 1rem 1.5rem #F2F2F2 inset;
+}
+.row.frontpage {
+    margin: 1.5rem auto;
 }
 
 .spec-link {
