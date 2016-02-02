@@ -19,6 +19,25 @@ meta-description: Welcome to the IRCv3 Working Group. We're a group of IRC clien
                   // zoom in
                   s.camera.ratio = 0.35;
                   s.refresh();
+
+                  // generate node list once
+                  nodes = s.graph.nodes();
+                  oldServer = nodes[0];
+
+                  function moveToRandomServer() {
+                        c = oldServer;
+                        while (c == oldServer) {
+                              c = nodes[Math.floor(Math.random() * nodes.length)];
+                        }
+                        oldServer = c;
+                        sigma.misc.animation.camera(s.camera, {x: c["read_cam0:x"], y: c["read_cam0:y"]}, {
+                              duration: 15000,
+                              onComplete: moveToRandomServer
+                        });
+                  }
+
+                  moveToRandomServer();
+
             });
       });
 </script>
