@@ -298,7 +298,7 @@ a:hover, a:focus {
 #home-slider-wrapper {
     background: #145960;
     width: 100%;
-    margin: 2rem 0;
+    margin: 2rem 0 0;
     color: white;
 }
 .homepage-features {
@@ -367,7 +367,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 3.9rem;
 }
 footer {
   position: absolute;
