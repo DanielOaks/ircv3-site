@@ -30,6 +30,13 @@ td + td, th + th {
     margin-top: 0;
 }
 
+// bootstrap's mobile/etc width
+@media screen and (max-width: 991px) {
+    .row.frontpage > div + div {
+	margin-top: 4rem;
+    }
+}
+
 .irc-version {
     font-size: 74%;
     vertical-align: 2px;
@@ -302,7 +309,7 @@ a:hover, a:focus {
 #home-slider-wrapper {
     background: #145960;
     width: 100%;
-    margin: 2rem 0 0;
+    margin-top: 2rem;
     color: white;
 }
 .homepage-features {
@@ -318,7 +325,7 @@ a:hover, a:focus {
     box-shadow: 0px 0px 1rem 1.5rem #F2F2F2 inset;
 }
 .row.frontpage {
-    margin: 3rem auto;
+    margin: 2rem auto;
 }
 
 .spec-link {
