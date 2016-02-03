@@ -4,51 +4,10 @@ title: Welcome
 meta-description: Welcome to the IRCv3 Working Group. We're a group of IRC client and server software authors working to improve the IRC protocol.
 ---
 
-<script>
-      graphMessages = [];
-      $(document).ready(function() {
-            sigma.parsers.json('{{ site.baseurl }}/networkgraphs/1.json',{
-                  container: 'home-graph',
-                  settings: {
-                        mouseEnabled: false,
-                        touchEnabled: false,
-                        borderSize: 3,
-                        defaultNodeBorderColor: "#043940",
-                  }
-            },
-            function(s) {
-                  // zoom in
-                  s.camera.ratio = 0.35;
-                  s.refresh();
-
-                  // generate node list once
-                  nodes = s.graph.nodes();
-                  oldServer = nodes[0];
-
-                  function moveToRandomServer() {
-                        c = oldServer;
-                        while (c == oldServer) {
-                              c = nodes[Math.floor(Math.random() * nodes.length)];
-                        }
-                        oldServer = c;
-                        sigma.misc.animation.camera(s.camera, {x: c["read_cam0:x"], y: c["read_cam0:y"]}, {
-                              duration: 30000,
-                              onComplete: moveToRandomServer
-                        });
-                  }
-
-                  moveToRandomServer();
-
-            });
-      });
-</script>
-
-<div id="home-graph" style="height: 250px; max-height: 50%"></div>
-
       <div class="page-header">
         <h1>IRC makes chat simple. We're making it modern.</h1>
       </div>
-      <p class="lead">IRC is a text-based teleconferencing system, tested and proven for over 20 years.<p>
+      <p class="lead">IRC is a text-based teleconferencing system, tested and proven for over 20 years.</p>
       <p class="lead">The <a href="{{ site.baseurl }}/wg.html">IRCv3 Working Group</a> is a collection of IRC client and server software authors working to enhance, maintain and standardize the IRC protocol using backwards-compatible extensions.</p>
 
       <div class="row frontpage">
