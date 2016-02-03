@@ -26,6 +26,10 @@ td + td, th + th {
     border-left: 1px #C0C0C0 solid;
 }
 
+.page-header {
+    margin-top: 0;
+}
+
 .irc-version {
     font-size: 74%;
     vertical-align: 2px;
