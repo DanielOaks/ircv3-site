@@ -1,7 +1,20 @@
 root:
-  type: listofdicts
+  type: mapofdicts
   kids:
-    name:
-      type: string
-    url:
-      type: string
+    participants:
+      type: listofdicts
+      kids:
+        name:
+          type: string
+        github:
+          type: string
+        projects:
+          type: listofstrings
+          required: false
+    orgs:
+      type: listofdicts
+      kids:
+        name:
+          type: string
+        url:
+          type: string

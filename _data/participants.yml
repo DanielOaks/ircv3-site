@@ -1,29 +1,197 @@
-- name: freenode
-  url: https://www.freenode.net/
+stakeholders:
+  - name: aatxe
+    projects:
+      - "[Rust IRC crate](https://github.com/aatxe/irc)"
+    github: aatxe
 
-- name: InspIRCd
-  url: http://inspircd.org/
+  - name: Aerdan
+    github: Aerdan
 
-- name: IRCCloud
-  url: https://www.irccloud.com/
+  - name: Alissa
+    projects:
+      - "[Moon Moon](https://chickennuggers.github.io/Moon-Moon)"
+    github: ChickenNuggers
 
-- name: WeeChat
-  url: https://weechat.org/
+  - name: Attila
+    projects:
+      - "[InspIRCd](http://inspircd.org)"
+    github: attilamolnar
 
-- name: Nefarious IRCd
-  url: https://github.com/evilnet/nefarious2
+  - name: Bash
+    projects:
+      - "[Coldstorm](https://github.com/coldstorm/coldstorm)"
+      - "[NetIRC](https://github.com/kevin-brown/NetIRC)"
+    github: kevin-brown
 
-- name: HexChat
-  url: https://hexchat.github.io/
+  - name: dan-
+    projects:
+      - "[mammon](http://mammon.io)"
+    github: DanielOaks
 
-- name: Kiwi IRC
-  url: https://kiwiirc.com/
+  - name: DarthGandalf
+    projects:
+      - "[ZNC](http://znc.in)"
+    github: DarthGandalf
 
-- name: UnrealIRCd
-  url: https://www.unrealircd.org/
+  - name: dx
+    projects:
+      - "[bitlbee](http://bitlbee.org/)"
+      - "[irssi](http://irssi.org/)"
+    github: dequis
 
-- name: mammon-ircd
-  url: http://www.mammon.io/
+  - name: expr
+    projects:
+      - "[irc-message](https://github.com/expr/irc-message)"
+      - "[Gab](Android client)"
+    github: expr
 
-- name: ZNC
-  url: http://znc.in/
+  - name: Express
+    projects:
+      - "[Coldstorm](https://github.com/coldstorm/coldstorm)"
+      - "[NetIRC](https://github.com/kevin-brown/NetIRC)"
+    github: Express50
+
+  - name: FlashCode
+    projects:
+      - "[WeeChat](https://weechat.org/)"
+    github: flashcode
+
+  - name: grawity
+    github: grawity
+
+  - name: Heero
+    projects:
+      - "[UnrealIRCd](http://unrealircd.com)"
+    github: tmcarthur
+
+  - name: hohl
+    projects:
+      - "[Alwyzon](http://www.alwyzon.com)"
+    github: hohl
+
+  - name: Jobe
+    projects:
+      - "[Nefarious](https://github.com/evilnet/nefarious2)"
+      - "[X3](https://github.com/evilnet/x3)"
+      - "[Denora](http://www.denorastats.org/)"
+    github: Jobe1986
+
+  - name: jpnurmi
+    projects:
+      - "[Communi](https://communi.github.io)"
+    github: jpnurmi
+
+  - name: jwheare
+    projects:
+      - "[IRCCloud](https://www.irccloud.com)"
+    github: jwheare
+
+  - name: kaniini
+    projects:
+      - "[Charybdis](http://charybdis.io)"
+      - "[mammon](http://mammon.io)"
+    github: kaniini
+
+  - name: kylef
+    projects:
+      - "[Palaver](https://palaverapp.com/)"
+      - "[ZNC](http://znc.in)"
+    github: kylef
+
+  - name: M2Ys4U
+    projects:
+      - "[Kiwi IRC](https://kiwiirc.com/)"
+    github: M2Ys4U
+
+  - name: matthew
+    github: mattwb65
+
+  - name: NoOneButMe
+    projects:
+      - "[Colloquy](http://colloquy.info)"
+    github: zadr
+
+  - name: ok
+    projects:
+      - "[pydle](https://github.com/Shizmob/pydle)"
+      - "[kochira](https://github.com/rfw/kochira)"
+    github: Shizmob
+
+  - name: pinkieval
+    projects:
+      - "[Limnoria](https://github.com/ProgVal/Limnoria)"
+    github: ProgVal
+
+  - name: prawnsalad
+    projects:
+      - "[Kiwi IRC](https://kiwiirc.com/)"
+    github: prawnsalad
+
+  - name: robotoad
+    projects:
+      - "[Relay](http://appstore.com/mac/relay)"
+    github: robotoad
+
+  - name: tilal6991
+    projects:
+      - "[HoloIRC](https://github.com/tilal6991/HoloIRC)"
+      - "[Relay](https://github.com/tilal6991/Relay)"
+    github: tilal6991
+
+  - name: RJ2
+    projects:
+      - "[IRCCloud](https://www.irccloud.com)"
+    github: RJ
+
+  - name: SaberUK
+    projects:
+      - "[InspIRCd](http://inspircd.org)"
+    github: SaberUK
+
+  - name: ShadowNinja
+    projects:
+      - "[LuaIRC](https://github.com/JakobOvrum/LuaIRC)"
+      - "[minetest-irc](https://github.com/kaeza/minetest-irc)"
+      - "[Limnoria-plugins](https://github.com/ShadowNinja/Limnoria-plugins)"
+    github: ShadowNinja
+
+  - name: TingPing
+    projects:
+      - "[HexChat](https://hexchat.github.io/)"
+    github: TingPing
+
+  - name: tomaw
+    projects:
+      - "[freenode](http://freenode.net)"
+    github: tomaw
+
+orgs:
+ - name: freenode
+   url: https://www.freenode.net/
+
+ - name: InspIRCd
+   url: http://inspircd.org/
+
+ - name: IRCCloud
+   url: https://www.irccloud.com/
+
+ - name: WeeChat
+   url: https://weechat.org/
+
+ - name: Nefarious IRCd
+   url: https://github.com/evilnet/nefarious2
+
+ - name: HexChat
+   url: https://hexchat.github.io/
+
+ - name: Kiwi IRC
+   url: https://kiwiirc.com/
+
+ - name: UnrealIRCd
+   url: https://www.unrealircd.org/
+
+ - name: mammon-ircd
+   url: http://www.mammon.io/
+
+ - name: ZNC
+   url: http://znc.in/
